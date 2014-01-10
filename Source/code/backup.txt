@@ -1,0 +1,19 @@
+f (crop) { 
+      result = img;
+		      std::cout << "n at end = " << n <<std::endl;
+				      for (int i = 0; i < n; i++) {
+						         FacePosition p = topMatches[i];
+									         int x1 = p.x+1*int(width/p.scale);
+												         int y1 = p.y+1*int(height/p.scale);
+															         int x2 = p.x+2*int(width/p.scale);
+																		         int y2 = p.y+2*int(height/p.scale);
+																					         result.line(x1,y1,x2,y1,100,255,100);
+																								         result.line(x1,y1,x1,y2,100,255,100);
+																											         result.line(x1,y2,x2,y2,100,255,100);
+																														         result.line(x2,y2,x2,y1,100,255,100);
+																																	         std::cout << "heeeeerrrrrreeeee n = " << n << std::endl;
+																																				         std::cout << " i = " << i << std::endl;
+																																							      }   
+																																									   } else {
+																																										      img.crop(topMatch.x+width/2, topMatch.y+height/2, topMatch.x+5*width/2, topMatch.y+5*height/2, result);
+																																												      }

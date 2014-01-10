@@ -1,0 +1,10 @@
+neutral/01.tga
+neutral/02.tga
+neutral/03.tga
+neutral/04.tga
+neutral/05.tga
+neutral/06.tga
+neutral/07.tga
+neutral/08.tga
+neutral/09.tga
+neutral/10.tga
